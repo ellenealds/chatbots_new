@@ -1,8 +1,6 @@
 import pandas as pd
 import cohere
 import streamlit as st
-import conversant
-from conversant.chatbot import Chatbot
 from conversant.prompt_chatbot import PromptChatbot
 from conversant.prompts import ChatPrompt
 from dataanalyst import new_data_analyst_config

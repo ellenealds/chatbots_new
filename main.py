@@ -48,9 +48,12 @@ def generate_response(response):
         formatted_response += f'<div class="bot-message">{bot} 🤖</div>\n'
     return formatted_response
 
-# Add pages to the sidebar
-st.sidebar.title('Chat to a Specialist')
-page = st.sidebar.radio('Who would you like to speak to?', [ 'Data Scientist Specialist','Data Analyst Specialist'])
+# Add pages to the sidebar, the side bar should be shown when the app is run
+st.sidebar.title('Specialist Chatbots')
+page = st.sidebar.selectbox('Select a page', ['Home', 'Data Scientist Specialist', 'Data Analyst Specialist'])
+
+#st.sidebar.title('Chat to a Specialist')
+#page = st.sidebar.radio('Who would you like to speak to?', [ 'Data Scientist Specialist','Data Analyst Specialist'])
 
 # add the home page
 if page == 'Data Scientist Specialist':

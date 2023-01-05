@@ -1,7 +1,7 @@
 streamlit
 pandas
 cohere
-annoy
-concurrent
 conversant
 streamlit_chat
+dataanalyst
+datascientist

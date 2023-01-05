@@ -1,15 +1,10 @@
 import pandas as pd
 import cohere
-import time
-from annoy import AnnoyIndex
 import streamlit as st
-import concurrent.futures
-from concurrent.futures import ThreadPoolExecutor
 import conversant
 from conversant.chatbot import Chatbot
 from conversant.prompt_chatbot import PromptChatbot
 from conversant.prompts import ChatPrompt
-from streamlit_chat import message
 from dataanalyst import new_data_analyst_config
 from datascientist import data_scientist_config
 

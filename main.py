@@ -5,7 +5,8 @@ from conversant.prompt_chatbot import PromptChatbot
 from conversant.prompts import ChatPrompt
 from dataanalyst import new_data_analyst_config
 from datascientist import data_scientist_config
-
+import logging
+logging.basicConfig(level=logging.DEBUG)
 #API = st.secrets["api_secret"]
 
 co = cohere .Client("b55ru767vjHE7IuQ0aaqQx9rIO3g7CN0zquVnEZY")

@@ -64,7 +64,7 @@ def generate_response(response):
 
 # Add pages to the sidebar, the side bar should be shown when the app is run
 st.sidebar.title('Specialist Chatbots')
-page = st.sidebar.selectbox('Who would you like to speak to?', ['Data Scientist Specialist', 'Data Analyst Specialist', "ADHD Specialits"])
+page = st.sidebar.selectbox('Who would you like to speak to?', ['Data Scientist Specialist', 'Data Analyst Specialist', "ADHD Specialist"])
 
 #st.sidebar.title('Chat to a Specialist')
 #page = st.sidebar.radio('Who would you like to speak to?', [ 'Data Scientist Specialist','Data Analyst Specialist'])
